@@ -29,13 +29,6 @@ const kakaoShare = () => {
             webUrl: pageUrl,
           },
         },
-        {
-          title: '앱으로 이동',
-          link: {
-            mobileWebUrl: pageUrl,
-            webUrl: pageUrl,
-          },
-        },
       ],
     });
   }

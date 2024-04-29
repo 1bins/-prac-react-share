@@ -5,6 +5,7 @@ const kakaoShare = () => {
     const kakao = window.Kakao;
 
     if (!kakao.isInitialized()) {
+      // kakao.init(process.env.REACT_APP_KAKAO_JS_KEY)
       kakao.init('1a7c01b06091adcc8c53d511ef41cb89')
     }
 

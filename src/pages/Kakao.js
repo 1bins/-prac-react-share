@@ -1,7 +1,9 @@
+import KakaoShare from "../components/KakaoShare";
+
 const Kakao = () => {
   return(
       <div>
-        Kakao
+        <KakaoShare/>
       </div>
   )
 }

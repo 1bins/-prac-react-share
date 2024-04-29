@@ -11,7 +11,7 @@ const kakaoShare = () => {
 
     kakao.Share.sendDefault({
       objectType: 'feed',
-      content: {
+    content: {
         title: '오늘의 디저트',
         description: '아메리카노, 빵, 케익',
         imageUrl:

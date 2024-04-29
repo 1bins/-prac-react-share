@@ -6,7 +6,7 @@ const Home = () => {
   return(
       <div>
         Home
-        <button type={"button"} onClick={() => nav('/kakao')}>카카오톡</button>
+        <button type={"button"} onClick={() => nav('/share')}>공유하기</button>
       </div>
   )
 }
